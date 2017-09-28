@@ -4,6 +4,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.helix.admin.fragmentviewpager.Fragment.FirstFragment;
+import com.helix.admin.fragmentviewpager.Fragment.FragmentAPI;
+import com.helix.admin.fragmentviewpager.Fragment.YoutubeFragment;
+
 /**
  * Created by admin on 8/9/2017.
  */
@@ -28,9 +32,10 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
             case 0: // Fragment # 0 - This will show FirstFragment
                 return FirstFragment.newInstance(0, "Page # 1");
             case 1: // Fragment # 0 - This will show FirstFragment different title
-                return FirstFragment.newInstance(1, "Page # 2");
+
+                return YoutubeFragment.newInstance();
             case 2: // Fragment # 1 - This will show SecondFragment
-                return FirstFragment.newInstance(2, "Page # 3");
+                return FragmentAPI.newInstance();
             default:
                 return null;
         }

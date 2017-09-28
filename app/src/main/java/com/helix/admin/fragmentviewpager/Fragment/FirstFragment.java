@@ -1,4 +1,4 @@
-package com.helix.admin.fragmentviewpager;
+package com.helix.admin.fragmentviewpager.Fragment;
 
 
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.helix.admin.fragmentviewpager.R;
 
 /**
  * Created by admin on 8/9/2017.
