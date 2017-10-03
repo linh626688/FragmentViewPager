@@ -11,9 +11,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.helix.admin.fragmentviewpager.Fragment.Retrofit.APIClient;
-import com.helix.admin.fragmentviewpager.Fragment.Retrofit.APIInterface;
-
 import java.util.List;
 
 import retrofit2.Call;
